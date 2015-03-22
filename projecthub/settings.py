@@ -101,7 +101,7 @@ STATICFILES_FINDERS = (
     'compressor.finders.CompressorFinder',
 )
 
-AUTH_USER_MODEL = 'authentication.Account'
+AUTH_USER_MODEL = 'authentication.UserAccount'
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
